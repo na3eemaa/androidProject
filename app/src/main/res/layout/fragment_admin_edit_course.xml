@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/green_gradient">
+
+    <EditText
+        android:id="@+id/etCourseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Course ID" />
+
+    <EditText
+        android:id="@+id/etCourseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Course Title"
+         />
+
+    <EditText
+        android:id="@+id/etMainTopics"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Main Topics"
+       />
+
+    <EditText
+        android:id="@+id/etPrerequisites"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Prerequisites"
+        />
+
+    <EditText
+        android:id="@+id/etDaysOfWeek"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Days of Week"
+         />
+
+    <EditText
+        android:id="@+id/etTimeOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Time of Day"
+        />
+
+    <Button
+        android:id="@+id/btnFetchCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Course"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+
+        android:backgroundTint="#ff7b89"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/btnUpdateCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Course"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+
+        android:textSize="16sp"
+        android:backgroundTint="#ff7b89"
+        android:fontFamily="sans-serif"
+         />
+
+</LinearLayout>

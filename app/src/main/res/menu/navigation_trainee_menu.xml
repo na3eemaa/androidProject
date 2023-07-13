@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu2_view_edit_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View Edit Profile" />
+        <item
+            android:id="@+id/menu2_notification_center"
+            android:title="Notifications"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu2_search"
+            android:title="Search"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu2_view_course_details"
+            android:title="View selected course details"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu2_enroll_in_course"
+            android:title="Enroll in selected course"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu2_trainee_course_history"
+            android:title="History of courses you studied"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu2_center_course_history"
+            android:title="History of courses of the center"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu2_Logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_menu_slideshow"/>
+
+
+    </group>
+
+</menu>

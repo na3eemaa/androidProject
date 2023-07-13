@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu3_view_edit_profile"
+            android:title="View Profile"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu3_view_schedule"
+            android:title="View Schedule"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu3_view_my_students"
+            android:title="View Students"
+            android:icon="@drawable/ic_menu_slideshow"/>
+
+        <item
+            android:id="@+id/menu3_view_courses_taught"
+            android:title="Course History"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/menu3_Logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_menu_slideshow"/>
+    </group>
+
+</menu>

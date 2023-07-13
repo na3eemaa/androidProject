@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/green_gradient">
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Email"
+        android:enabled="false"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:id="@+id/FirstNameText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="First Name"
+        />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+
+        android:id="@+id/LastNameText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Last Name"
+        />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+
+        android:id="@+id/PasswordText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Password"
+        />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+
+        android:id="@+id/mobileNumberText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Mobile Number"
+        />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+
+        android:id="@+id/addressText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Adress"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnUpdateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+
+        android:backgroundTint="#ff7b89"
+        android:fontFamily="sans-serif"
+        />
+
+</LinearLayout>
